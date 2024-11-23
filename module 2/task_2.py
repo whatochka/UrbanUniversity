@@ -9,5 +9,5 @@ while True:
     else:
         index += 1
 
-    if index == num_list_length:
+    if index == num_list_length or num_list[index] < 0:
         break
